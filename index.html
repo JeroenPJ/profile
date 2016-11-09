@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Basic info</title>
+    <title>Jeroen Jagt's Profile</title>
 
     <!-- Google fonts -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
@@ -13,17 +13,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class='navbar-container'>
+      <div class='navbar'>
+        <a href='#home'>Home</a>
+        <a href='#social'>Social</a>
+        <a href='#albums'>Albums</a>
+      </div>
+    </div>
 
     <div class="container">
       <div class="card-container">
-        <div class="card">
+        <div class="card" id="home">
           <img class='img-center blue-shadow' src='img/profilepicture.jpeg' />
           <h1 class='text-center'>Jeroen Jagt</h1>
           <h2 class='text-center'>Student on Earth</h2>
           <p>In 17 years I have gone to school for most of the time. Now deciding what to study while exploring more of the world for a year.</p>
         </div>
       </div>
-      <div class="card-container">
+      <div class="card-container" id="social">
         <div class="card">
           <ul class='list-inline text-center'>
             <li>
@@ -39,7 +46,7 @@
           </ul>
         </div>
       </div>
-      <div class="card-container">
+      <div class="card-container" id="albums">
         <div class="card">
           <p class='title'>Albums by Frank Ocean</p>
           <table>
