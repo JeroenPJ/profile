@@ -1,0 +1,100 @@
+/* Here goes your CSS */
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+  background: #c6f1ff;
+  background: -webkit-linear-gradient(bottom left, #c6f1ff 0%, #5ed9ff 41%, #269dff 100%);
+  background: -o-linear-gradient(bottom left, #c6f1ff 0%, #5ed9ff 41%, #269dff 100%);
+  background: linear-gradient(to top right, #c6f1ff 0%, #5ed9ff 41%, #269dff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6f1ff', endColorstr='#269dff',GradientType=1 );
+
+}
+
+img {
+  max-width: 230px;
+  max-height: 230px;
+}
+
+.blue-shadow {
+  -webkit-box-shadow: 5px 5px 0px 0px rgb(0, 172, 230);
+  -moz-box-shadow: 5px 5px 0px 0px rgb(0, 172, 230);
+  box-shadow: 5px 5px 0px 0px rgb(0, 172, 230);
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Montserrat';
+  line-height: 1;
+  /*-webkit-text-stroke: 1px black;*/
+  color: #00ace6;
+  text-shadow: 1px 1px 0 #000;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 16px;
+  color: #666666;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #00ace6;
+}
+
+a:hover {
+  color: #00ccff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  width: 740px;   /* Set width */
+  margin: 40px auto; /* Automatically set left/right margins */
+}
+
+.card-container {
+  border-left: 1px solid #00ace6;
+  border-right: 1px solid #00ace6;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card {
+  margin-bottom: 50px;
+
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-top-width: 0;
+  border-bottom-width: 3px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+table img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 23px;
+  font-family: 'Montserrat';
+  line-height: 1;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0;
+}
